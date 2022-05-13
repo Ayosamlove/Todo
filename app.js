@@ -1,7 +1,7 @@
 const addNew = document.querySelector('.add');
 const list = document.querySelector('.todos');
-hides = document.querySelector('.hides');
-// const del = document.querySelector('.delete')
+const hides = document.querySelector('.hides');
+const search = document.querySelector('.search input');
 
 const generateTemplate = (todo) => {
 
